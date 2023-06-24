@@ -1,0 +1,132 @@
+:root {
+    --violet: hsl(263, 55%, 52%);
+    --grayish-blue: hsl(217, 19%, 35%);
+    --dark-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    row-gap: 24px;
+    background: #ECF2F8;
+    padding: 71px 24px 71px 24px;
+}
+main .container-background {
+    padding: 26px 32px 32px 32px;
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+main .container-background .container-text {
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+}
+main .container-background .container-text .container-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+main .container-background .container-text .container-name .name {
+    font-size: calc(13rem / 16);
+    font-weight: 500;
+    line-height: 13px;
+}
+main .container-background .container-text .container-name .verified {
+    font-size: calc(11rem / 16);
+    font-weight: 500;
+    line-height: 11px;
+    opacity: 0.5;
+}
+main .container-background h2 {
+    font-size: calc(20rem / 16);
+    font-weight: 600;
+}
+main .container-background p {
+    color: #CFCFCF;
+    font-size: calc(13rem / 16);
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.699999988079071;
+}
+main .container-background .container-text img {
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    border: 2px solid #A775F1;
+}
+main .container-background.one {
+    background-color: var(--violet);
+    color: var(--White);
+    position: relative;
+}
+main .container-background.two {
+    background-color: var(--grayish-blue);
+    color: var(--White);
+}
+main .container-background.four {
+    background-color: var(--dark-blue);
+    color: var(--White);
+}
+
+main .container-background.one .container-text {
+    margin-bottom: 18px;
+}
+main .container-background.one h2 {
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+main .container-background.one .background {
+    background-image: url(./assets/bg-pattern-quotation.svg);
+    width: 104px;
+    height: 102px;
+    position: absolute;
+    right: 24px;
+    top: 0;
+    z-index: 1;
+}
+main .container-background.two .container-text {
+    margin-bottom: 18px;
+}
+main .container-background.two h2 {
+    margin-bottom: 16px;
+}
+main .container-background.three {
+    background-color: var(--White);
+}
+main .container-background.three .container-text {
+    margin-bottom: 18px;
+}
+main .container-background.three h2 {
+    margin-bottom: 16px;
+}
+main .container-background.three p {
+    color: #48556A;
+}
+main .container-background.four .container-text {
+    margin-bottom: 18px;
+}
+main .container-background.four h2 {
+    margin-bottom: 16px;
+}
+main .container-background.five .container-text {
+    margin-bottom: 18px;
+}
+main .container-background.five h2 {
+    margin-bottom: 16px;
+}
+main .container-background.five p {
+    color: #48556A;
+}
+main .container-background.five {
+    background-color: var(--White);
+}

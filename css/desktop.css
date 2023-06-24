@@ -1,0 +1,26 @@
+main {
+    padding: 0;
+    grid-template-columns: 255px 255px 255px 255px;
+    grid-template-rows: 282px 266px;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 24px;
+}
+main .container-background.one {
+    grid-column: span 2;
+}
+main .container-background.one .background {
+    right: 80px;
+}
+main .container-background.one h2 {
+    margin-bottom: 16px;
+}
+main .container-background.five {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+main .container-background.four {
+    grid-column: span 2;
+}
